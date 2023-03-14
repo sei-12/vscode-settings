@@ -1,0 +1,7 @@
+#!/bin/bash
+
+function package_list(){
+    code --list-extensions >> ./pkglist
+    git add ./pkglist && git commit -m "update pkglist"
+}
+
