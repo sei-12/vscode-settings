@@ -1,0 +1,101 @@
+{
+  "editor.fontSize": 14,
+    "workbench.startupEditor": "none",
+
+    "workbench.colorCustomizations": {
+      "editor.background": "#27272e",
+      "sideBar.background":"#2a2a34",
+      "activityBar.background":"#2e2e38",
+      "editorGroupHeader.tabsBackground":"#1e1d24",
+      "tab.inactiveBackground":"#2c2b2f",
+      // "disabledForeground":"#",
+      "titleBar.activeBackground":"#31323d",
+      "titleBar.inactiveBackground":"#2f2f39",
+      // "editor.lineHighlightBackground": "#151520",
+      "editorLineNumber.activeForeground": "#00ffff"
+    },
+
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "python.analysis.extraPaths": [
+      "/Users/seitaro/miniforge3/lib/python3.10/site-packages",
+      "/Users/seitaro/.vscode/extensions/ms-python.vscode-pylance-2022.11.30/dist/typeshed-fallback/stubs/PyAutoGUI/"
+    ],
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "terminal.integrated.inheritEnv": false,
+    "notebook.output.textLineLimit": 100,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "python.defaultInterpreterPath": "/Users/seitaro/miniforge3/envs/base/bin/python",
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "better-comments.tags": [
+      {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "//",
+        "color": "#474747",
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "todo",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "*",
+        "color": "#98C379",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "terminal.integrated.fontSize": 20,
+    "git.autofetch": true,
+    "editor.smoothScrolling": true,
+    "window.restoreFullscreen": true,
+    "editor.accessibilitySupport": "off",
+    "codic.case": "PascalCase",
+    "codic.ACCESS_TOKEN": "Cg2vzq3D0A6xxKAFv1L1WjmDQMCrtGGAYv",
+    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+    "window.restoreWindows": "none",
+    "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+    },
+    "window.openFilesInNewWindow": "on",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "git.openRepositoryInParentFolders": "never",
+    "C_Cpp.clang_format_style": "{ BreakBeforeBraces: Attach, IndentWidth: 4 }",
+    "editor.hover.enabled": true,
+    "window.zoomLevel": -1
+}
