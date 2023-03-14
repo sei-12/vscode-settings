@@ -1,0 +1,14 @@
+#!/bin/bash
+
+path=$HOME/Library/"Application Support"/Code/User/
+cd "$path"
+
+ln -s "$HOME/d-vscode/settings.json" "./"
+ln -s "$HOME/d-vscode/keybindings.json" "./"
+
+pkglist=$(cat ./pkglist)
+ 
+for var in ${pkglist[@]}
+do
+    code --install-extension $var
+done
