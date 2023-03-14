@@ -1,12 +1,13 @@
 #!/bin/bash
 
+this_path=$HOME/d-vscode
 path=$HOME/Library/"Application Support"/Code/User/
 cd "$path"
 
-ln -s "$HOME/d-vscode/settings.json" "./"
-ln -s "$HOME/d-vscode/keybindings.json" "./"
+ln -s "$this_path/settings.json" "./"
+ln -s "$this_path/keybindings.json" "./"
 
-pkglist=$(cat ./pkglist)
+pkglist=$(cat $this_path/pkglist)
  
 for var in ${pkglist[@]}
 do
