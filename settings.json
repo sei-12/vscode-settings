@@ -97,5 +97,6 @@
     "git.openRepositoryInParentFolders": "never",
     "C_Cpp.clang_format_style": "{ BreakBeforeBraces: Attach, IndentWidth: 4 }",
     "editor.hover.enabled": true,
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "workbench.panel.defaultLocation": "right"
 }
