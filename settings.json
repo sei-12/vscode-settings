@@ -78,7 +78,7 @@
         "italic": false
       }
     ],
-    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.fontSize": 16,
     "git.autofetch": true,
     "editor.smoothScrolling": true,
     "window.restoreFullscreen": true,
@@ -97,6 +97,5 @@
     "git.openRepositoryInParentFolders": "never",
     "C_Cpp.clang_format_style": "{ BreakBeforeBraces: Attach, IndentWidth: 4 }",
     "editor.hover.enabled": true,
-    "window.zoomLevel": -1,
-    "workbench.panel.defaultLocation": "right"
+    "window.zoomLevel": -1
 }
