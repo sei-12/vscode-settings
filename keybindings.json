@@ -540,5 +540,21 @@
         "key": "cmd+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+.",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+cmd+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
     }
 ]
